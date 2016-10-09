@@ -227,6 +227,10 @@ body {
   background: url("../image/3.png") no-repeat center;
   background-size: 250px; }
 
+.zuopin1 .shows .lianxiren {
+  background: url("../image/lianxi.png") no-repeat center;
+  background-size: 250px; }
+
 .zuopin1 .shows .wuziqi2 {
   background: url("../image/4.png") no-repeat center;
   background-size: 250px; }
@@ -853,3 +857,148 @@ body {
     text-align: center;
     font-size: 16px;
     font-family: "微软雅黑"; }
+
+.shouye .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px; }
+  .shouye .btn .left1 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+  .shouye .btn .right1 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+
+.jieshao .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px; }
+  .jieshao .btn .left2 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+  .jieshao .btn .right2 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+
+.show .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px; }
+  .show .btn .left3 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+  .show .btn .right3 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+
+.jieshao1 .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px; }
+  .jieshao1 .btn .left4 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+  .jieshao1 .btn .right4 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+
+.lianxi .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px; }
+  .lianxi .btn .left5 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }
+  .lianxi .btn .right5 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px; }

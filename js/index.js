@@ -38,14 +38,14 @@ $(function(){
         $('.shouye').css('display','none');
         $('.jieshao').css('display','none');
         $('.jieshao1').css('display','none');
-        $('.lianxi').css('display','none')
+        $('.lianxi').css('display','none');
     })
     $('.ju4').on('click',function(){
         $('.jieshao1').css('display','block');
         $('.jieshao').css('display','none');
         $('.shouye').css('display','none');
         $('.show').css('display','none');
-        $('.lianxi').css('display','none')
+        $('.lianxi').css('display','none');
     })
     $('.ju5').on('click',function(){
         $('.lianxi').css('display','block');
@@ -55,12 +55,6 @@ $(function(){
         $('.show').css('display','none');
     })
     //首页动画
-    // setInterval(function(){
-    //     $('.left span').css({
-    //         fontSize:'50'
-    //         alert(1)
-    //     })
-    // },500);
     //照片放大
     $('.photo').on('mouseover',function(){
         $(this).css({
@@ -75,6 +69,78 @@ $(function(){
                     height:"170px",
                      border:"2px solid rgba(255, 255, 255,0.9)"})
     })
+    $('.btn .left1').on('click',function(){
+        $('.lianxi').css('display','block');
+        $('.jieshao1').css('display','none');
+        $('.shouye').css('display','none');
+        $('.jieshao').css('display','none');
+        $('.show').css('display','none');
+    })
+        $('.btn .right1').on('click',function(){
+            $('.jieshao').css('display','block');
+            $('.jieshao1').css('display','none');
+            $('.shouye').css('display','none');
+            $('.show').css('display','none');
+            $('.lianxi').css('display','none');
+        })
+    $('.btn .left2').on('click',function(){
+        $('.shouye').css('display','block');
+        $('.jieshao').css('display','none');
+        $('.jieshao1').css('display','none');
+        $('.show').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .right2').on('click',function(){
+        $('.show').css('display','block');
+        $('.shouye').css('display','none');
+        $('.jieshao').css('display','none');
+        $('.jieshao1').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .left3').on('click',function(){
+        $('.jieshao').css('display','block');
+        $('.jieshao1').css('display','none');
+        $('.shouye').css('display','none');
+        $('.show').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .right3').on('click',function(){
+        $('.jieshao1').css('display','block');
+        $('.jieshao').css('display','none');
+        $('.shouye').css('display','none');
+        $('.show').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .left4').on('click',function(){
+        $('.show').css('display','block');
+        $('.shouye').css('display','none');
+        $('.jieshao').css('display','none');
+        $('.jieshao1').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .right4').on('click',function(){
+        $('.lianxi').css('display','block');
+        $('.jieshao1').css('display','none');
+        $('.shouye').css('display','none');
+        $('.jieshao').css('display','none');
+        $('.show').css('display','none');
+    })
+    $('.btn .left5').on('click',function(){
+        $('.jieshao1').css('display','block');
+        $('.jieshao').css('display','none');
+        $('.shouye').css('display','none');
+        $('.show').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    $('.btn .right5').on('click',function(){
+        $('.shouye').css('display','block');
+        $('.jieshao').css('display','none');
+        $('.jieshao1').css('display','none');
+        $('.show').css('display','none');
+        $('.lianxi').css('display','none');
+    })
+    
+
     //第二页动画
     $('.mengban').on('mouseenter',function(){
         $('.zuo').addClass('zuo1')
@@ -139,5 +205,12 @@ $(function(){
     })
     $('.jineng2 .mysql').on('mouseout',function(){
         $(this).text('mysql');
+    })
+
+    $('.btn').on('mouseover',function(){
+       $(this).css({opacity:1})
+    })
+    $('.btn').on('mouseout',function(){
+        $(this).css({opacity:0})
     })
 })

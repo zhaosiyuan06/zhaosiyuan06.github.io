@@ -229,11 +229,40 @@ body{
   background-size: 250px;
   position: relative;
 }
+//.shows .you{
+//  position: absolute;
+//  left: 0px;
+//  right: 0px;
+//  top: 0px;
+//  bottom: 0px;
+//  margin: auto;
+//}
+//@keyframes spin { to { transform: rotate(1turn); } }
+//@keyframes radius { 50% { border-radius: 50%; } }
+//@keyframes color { 33% { color: dodgerblue; } 66% { color: white } }
+//@keyframes width { 50% { border-width: .1em; } }
+//.lianxi .tu1:before{
+//  content: '';
+//  display: block;
+//  width: 2em;
+//  height: 2em;
+//  margin: 0 auto 1em;
+//  border: 1.5em solid;
+//  color: yellowgreen;
+//  box-sizing: border-box;
+//  animation: 1s spin, .7s radius, 1.1s color, 1.3s width;
+//  animation-timing-function: linear;
+//  animation-iteration-count: infinite;
+//}
 .zuopin1 .shows a:hover{
   border:2px solid deepskyblue;
 }
 .zuopin1 .shows .wuziqi1{
   background: url("../image/3.png") no-repeat center;
+  background-size: 250px;
+}
+.zuopin1 .shows .lianxiren{
+  background: url("../image/lianxi.png") no-repeat center;
   background-size: 250px;
 }
 .zuopin1 .shows .wuziqi2{
@@ -897,3 +926,164 @@ body{
   }
 }
 
+.shouye .btn {
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  //background: red;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  left: 0px;
+  .left1 {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+  .right1{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+}
+  .jieshao .btn{
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    //background: red;
+    position: absolute;
+    top:50%;
+    margin-top: -40px;
+    left: 0px;
+    .left2{
+      cursor: pointer;
+      width: 80px;
+      height: 80px;
+      background: url("../image/icon_back.png") center no-repeat;
+      background-size: 50px;
+      float: left;
+      line-height: 80px;
+      color: white;
+      font-size: 40px;
+    }
+  .right2{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+}
+
+.show .btn{
+ opacity: 0;
+  width: 100%;
+  height: 80px;
+  //background: red;
+  position: absolute;
+  top:50%;
+  margin-top: -40px;
+  left: 0px;
+  .left3{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+  .right3{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+}
+.jieshao1 .btn{
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  //background: red;
+  position: absolute;
+  top:50%;
+  margin-top: -40px;
+  left: 0px;
+  .left4{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+  .right4{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+}
+.lianxi .btn{
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  //background: red;
+  position: absolute;
+  top:50%;
+  margin-top: -40px;
+  left: 0px;
+  .left5{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_back.png") center no-repeat;
+    background-size: 50px;
+    float: left;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+  .right5{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: url("../image/icon_forward.png") center no-repeat;
+    background-size: 50px;
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+  }
+}
